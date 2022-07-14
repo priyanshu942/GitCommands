@@ -1,0 +1,5 @@
+To initialize empty git repository-: git init
+To see folders-:ls
+To see hidden folders-:ls -a
+To see all changes we have made-:git status
+ 
