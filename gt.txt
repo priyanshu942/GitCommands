@@ -6,4 +6,5 @@ To add all files to staging area-:git add .
 To add all files to staging area-:git add (filename.extension)
 To commit files-:git -m "message you want to give"
 To tell your email -:git config --global user.email "(enter your email)"
-To enter your username-:git config --global user.name "(enter your name)"  
+To enter your username-:git config --global user.name "(enter your name)" 
+To make file to previous commit-:git restore --staged (enter filename.extensioin) 
