@@ -1,10 +1,33 @@
+g to create working directory -:mkdir (name)
 To initialize empty git repository-: git init
 To see folders-:ls
 To see hidden folders-:ls -a
 To see all changes we have made-:git status
 To add all files to staging area-:git add .
 To add all files to staging area-:git add (filename.extension)
-To commit files-:git -m "message you want to give"
+To commit files-:git commit -m "message you want to give"
 To tell your email -:git config --global user.email "(enter your email)"
 To enter your username-:git config --global user.name "(enter your name)" 
 To make file to previous commit-:git restore --staged (enter filename.extensioin) 
+To send file to backstage:- git stash
+To bring backstage file back:-git stash pop
+To clean the file that are in back stage:-git stash clean
+To add the file to github:-git remote add origin (enter url)  [here origin is the name of url]
+To see all url attach to the folder:-git remote -v
+To push project:- git push origin master
+To download other repository in our:- git clone "paste the url of that code" 
+To create new branch :- git branch branchname
+To change the branch :-git checkout branchname you want to change
+to fetch all commits :- git fetch --all --prune
+to reset branch to main branch :-git reset --hard upstream/main
+to merge commit:-git rebase -i (enter url of last commit)
+to escape out of it press esc : x and enter the message esc : wq
+
+if you commit single file the vim editor is open
+
+to create new directory:-mkdir (filename.extension)
+to roll back to prevous version :- git checkout (then give previous version id of first 7)
+to check branch you are working:-git branch
+to remove file from staging area :-git rm --cached (file name)
+
+to escape from vi esc shift :wq! enter or cntrl z
